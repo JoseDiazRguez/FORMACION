@@ -1,6 +1,6 @@
-## IDE (Entornos de Desarrollo Integrado
+# IDE (Entornos de Desarrollo Integrado
 
-# Atajos de teclado
+## Atajos de teclado
 Ahorrar tiempo y hace el trabajo más fluido y eficiente. También se pueden personalizar estos atajos a medida).
 
 - Guardar cambios en el fichero
@@ -11,7 +11,7 @@ Ahorrar tiempo y hace el trabajo más fluido y eficiente. También se pueden per
 - Forzar el que sugiera autocompletado con varias opciones
 - ...
 
-# Autocompletado de código
+## Autocompletado de código
 Acelera el trabajo y reduce errores tipográficos y recordar sintáxis complejas.
 
 A medida que vamos programando esta función va sugeriendo posibles opciones:
@@ -21,7 +21,7 @@ A medida que vamos programando esta función va sugeriendo posibles opciones:
 - Corregir errores de sintáxis
 - ...
 
-# Depuración (Debug)
+## Depuración (Debug)
 Detectar y resolver errores de código. Es una de las herramientas más importantes que tienen los IDEs.
 
 Para ello, esta funcionalidad nos permite ejecutar el código paso a paso, inspeccionando el estado de las variables y de nuestro programa en sí, y ver el punto concreto en el que sucede el error.
@@ -32,7 +32,7 @@ Conceptos:
 -- Step into: Nos permite entrar en la función específica y ver qué sucede dentro de ella.
 - Inspección de variables: Ver en tiempo real el valor de las variables, donde podremos ir verificando cómo cambia el progarma, y si ese valor es justo lo que esperábamos.
 
-# Otras
+## Otras
 Permite hacer de forma segura y sin tener que ir uno a uno, evitando así posibles errores:
 
 - Refactorización de código
