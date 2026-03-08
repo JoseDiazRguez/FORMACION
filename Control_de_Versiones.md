@@ -1,4 +1,4 @@
-# Git
+# Control de versiones --> Git
 
 Heramienta que guarda el historial completo de los cambios en el código. 
 Nos permite revisar el progreso y recuperar versiones anteriores cuando sea necesario.
