@@ -48,6 +48,11 @@ Para ello, esta funcionalidad nos permite ejecutar el código paso a paso, inspe
   - **Step into**: Nos permite entrar en la función específica y ver qué sucede dentro de ella.
 - **Inspección de variables**: Ver en tiempo real el valor de las variables, donde podremos ir verificando cómo cambia el progarma, y si ese valor es justo lo que esperábamos.
 
+## Linterns
+Son herramientas de análisis de código en tiempo real (a menudo llamadas linters o ayudas contextuales) que iluminan o marcan errores
+- Función: Revisan tu código mientras escribes, buscando errores de sintaxis, violaciones de estilo o malas prácticas.
+- ¿Cómo "iluminan"?: Subrayan en rojo (error grave) o amarillo (advertencia) las partes del código que no cumplen las reglas.
+
 ## Otras
 Permite hacer de forma segura y sin tener que ir uno a uno, evitando así posibles errores:
 
