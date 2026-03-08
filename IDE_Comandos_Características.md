@@ -44,8 +44,8 @@ Para ello, esta funcionalidad nos permite ejecutar el código paso a paso, inspe
 
 **Conceptos**:
 - **Breakpoint** (puntos de interrupción o de ruptura): Son lugares específicos del código donde el IDE se va a detener, va a pausar la ejecución para que podamos inspeccionar el estado del programa en ese punto. De esta manera seguiremos el código paso a paso con conceptos como:
--- **Step over**: Nos permite ejecutar una línea de código a la vez.
--- **Step into**: Nos permite entrar en la función específica y ver qué sucede dentro de ella.
+  - **Step over**: Nos permite ejecutar una línea de código a la vez.
+  - **Step into**: Nos permite entrar en la función específica y ver qué sucede dentro de ella.
 - **Inspección de variables**: Ver en tiempo real el valor de las variables, donde podremos ir verificando cómo cambia el progarma, y si ese valor es justo lo que esperábamos.
 
 ## Otras
