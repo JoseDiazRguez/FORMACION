@@ -1,4 +1,4 @@
-# IDE (Entornos de Desarrollo Integrado
+# IDE (Entornos de Desarrollo Integrado)
 
 ## Atajos de teclado
 Ahorrar tiempo y hace el trabajo más fluido y eficiente. También se pueden personalizar estos atajos a medida).
