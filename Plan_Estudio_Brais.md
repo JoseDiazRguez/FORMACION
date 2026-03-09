@@ -13,17 +13,19 @@
 
 ### Estar actualizados:
 - Suscripción a 1-2 Newsletters sobre lo que estamos estudiando y:
-    --> Brais Moure
-    --> https://www.codemotion.com/
+  - Brais Moure
+  - https://www.codemotion.com/
 - Seguir referentes
-    --> Brais Moure (@mouredev, Software engineer & Full-stack developer), 
-    --> Miguel Ángel Durán (@midudev, Divulgador de programación), 
-    --> Carlos Azaustre (@carlosazaustre, Software engineer), 
-    --> Carlos Santana Vega (@DotCSV, IA)
-    --> Chema Alonso (@chemaalonso, Ciberseguridad)
+  - Brais Moure (@mouredev, Software engineer & Full-stack developer), 
+  - Miguel Ángel Durán (@midudev, Divulgador de programación), 
+  - Carlos Azaustre (@carlosazaustre, Software engineer), 
+  - Carlos Santana Vega (@DotCSV, IA)
+  - Chema Alonso (@chemaalonso, Ciberseguridad)
 - Crear espacio en GitHub paa organizar las novedades interesantes --> Registro de recursos útiles
 
   ## Inglés
 
 - A2: https://www.freecodecamp.org/learn/a2-english-for-developers/
 - B1: https://www.freecodecamp.org/learn/b1-english-for-developers/
+
+
