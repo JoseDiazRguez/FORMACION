@@ -4,7 +4,7 @@ Heramienta que guarda el historial completo de los cambios en el código.
 Nos permite revisar el progreso y recuperar versiones anteriores cuando sea necesario.
 Almacena diferentes versiones del código con el paso del tiempo, cada una representa un estado específico (instantánea), con ello podremos comparar el código, los cambios, colaborar con otras personas.
 
-Libro: [file:///C:/Users/josed/Downloads/progit.pdf](https://git-scm.com/book/es/v2)
+Libro: https://git-scm.com/book/es/v2
 
 ## Restaración
 Se puede **restaurar a una versión anterior sin perder el trabajo reciente** [...ver cómo se hace esto...] 
