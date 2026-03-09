@@ -34,7 +34,7 @@ Hay que entender bien los siguientes principios:
 ## Cómo mejor nuestra lógica
 - Resolviendo problemas de lógica de programación:
   - https://www.youtube.com/watch?v=qSup_483xO8
-  - 
+  - LIBRO: https://colegiomanosunidas.wordpress.com/wp-content/uploads/2011/03/esencia_logica_programacion.pdf
 - Plataformas: Buscar "ejercicios programación", "retos lógicos de programación"...
   - https://exercism.org/
   - https://www.codewars.com/
