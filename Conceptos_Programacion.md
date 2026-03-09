@@ -20,7 +20,7 @@ Están **diseñados para crecer**, permitiendo que tu aplicación maneje más us
   - Livewire.
   - Blazor.
 
-## Seguridad
+### Seguridad
 Suelen traer unas medidas de seguridad ya integradas que nos protegen de **inyecciones SQL** o **ataques XSS**[*] 
 
 [*] Un ataque **Cross-Site Scripting (XSS)** es una vulnerabilidad de seguridad web donde un atacante inyecta scripts maliciosos (normalmente JavaScript) en sitios web legítimos. Cuando los usuarios visitan el sitio, este código se ejecuta en sus navegadores, permitiendo el robo de sesiones, datos de usuario o redirecciones maliciosas.
@@ -44,5 +44,7 @@ El **pair programming** o programación en pareja, es una técnica colaborativa 
   - Falta de comunicación.
   - Exceso de control.
 
+## Rubber duck debugging - Técnica del Patito de goma
+La técnica del patito de goma (rubber duck debugging) es un método de depuración utilizado en programación que consiste en explicarle el código o problema paso a paso a un patito de goma (u objeto inanimado) para detectar fallos. Al verbalizar la lógica, el programador reorganiza sus ideas, identifica contradicciones y encuentra soluciones.
 
 
