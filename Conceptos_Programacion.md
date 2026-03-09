@@ -25,5 +25,24 @@ Suelen traer unas medidas de seguridad ya integradas que nos protegen de **inyec
 
 [*] Un ataque **Cross-Site Scripting (XSS)** es una vulnerabilidad de seguridad web donde un atacante inyecta scripts maliciosos (normalmente JavaScript) en sitios web legítimos. Cuando los usuarios visitan el sitio, este código se ejecuta en sus navegadores, permitiendo el robo de sesiones, datos de usuario o redirecciones maliciosas.
 
+## Pair Programming
+El **pair programming** o programación en pareja, es una técnica colaborativa en la que dos programadores trabajan juntos en un mismo código. Uno escribe mientras el otro revisa y sugiere mejoras. Es una práctica común en la industria y una herramienta efectiva para aprender programación de manera conjunta.
+
+### Conlleva:
+- Aprendizaje mutuo: Trabajar en equipo enriquece la perspectiva y habilidades.
+- Detección rápida de errores: Dos pares de ojos ven más que uno.
+- Mejor de la comprensión del código y la lógica detrás de cada línea.
+- Desarrollo de habilidades de comunicación y colaboración esenciales para el mundo laboral.
+
+### Se debe:
+- Alternar los roles regularmente (cada 30 minutos o 1 hora):
+  - **Driver (Conductor)**: Es quien escribe el código. Se enfoca en la implementación, la sintaxis y en seguir la lógica previamente acordada.
+  - **Observer o Navigator (Observador)**: Es quien observa y revisa el código en tiempo real. Busca errores, verifica la lógica y sugiere mejoras, pero nunca obliga.
+- Planificar antes de escribir código.
+- Mantener una comunicación clara y receptiva.
+- Errores comunes que se aprenderán a evitar:
+  - Falta de comunicación.
+  - Exceso de control.
+
 
 
