@@ -5,6 +5,7 @@ Nos permite revisar el progreso y recuperar versiones anteriores cuando sea nece
 Almacena diferentes versiones del código con el paso del tiempo, cada una representa un estado específico (instantánea), con ello podremos comparar el código, los cambios, colaborar con otras personas.
 
 Libro: https://git-scm.com/book/es/v2
+
 Documentación de GitHub: https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
 
 ## Restaración
