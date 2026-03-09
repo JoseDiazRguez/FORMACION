@@ -1,10 +1,10 @@
 # Conceptos de programación
 
 ## Frameworks
-Un framework en programación es un es un conjunto de herramientas, bibliotecas y estructuras (reglas y buenas prácticas) predefinidas que sirven como "marco de trabajo" o estructura base para desarrollar software (páginas webs o aplicaciones) de forma más rápida, ordenada y eficiente, evitando programar todo desde cero. A diferencia de una librería, el framework dicta cómo organizar tu código. Además, reduce errores gracias a módulos con códigos reutilizables ya probados y estandariza el código para facilitar el trabajo en equipo, asegurando la coherencia entre proyectos.
+Un **framework** en programación es un es un conjunto de herramientas, bibliotecas y estructuras (reglas y buenas prácticas) predefinidas que sirven como "marco de trabajo" o estructura base para desarrollar software (páginas webs o aplicaciones) de forma más rápida, ordenada y eficiente, evitando programar todo desde cero. A diferencia de una librería, el framework dicta cómo organizar tu código. Además, **reduce errores** gracias a módulos con códigos reutilizables ya probados y **estandariza el código** para facilitar el trabajo en equipo, asegurando la coherencia entre proyectos.
 
 Ofrece una estructura prediseñada con una serie de componentes y directrices para crear aplicaciones, esto acelera el proceso de desarrollo.
-Están diseñados para crecer, permitiendo que tu aplicación maneje más usuarios y funcionalidades sin colapsar.
+Están **diseñados para crecer**, permitiendo que tu aplicación maneje más usuarios y funcionalidades sin colapsar.
 
 ### Tipos de Frameworks
 
@@ -21,7 +21,7 @@ Están diseñados para crecer, permitiendo que tu aplicación maneje más usuari
   - Blazor.
 
 ## Seguridad
-Suelen traer unas medidas de seguridad ya integradas que nos protegen de inyecciones SQL o ataques XSS.
+Suelen traer unas medidas de seguridad ya integradas que nos protegen de **inyecciones SQL** o **ataques XSS**.
 
 
 
