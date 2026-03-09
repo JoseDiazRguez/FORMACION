@@ -28,4 +28,20 @@
 - A2: https://www.freecodecamp.org/learn/a2-english-for-developers/
 - B1: https://www.freecodecamp.org/learn/b1-english-for-developers/
 
+## Portafolio
+
+Hay que trabajar bien nuestro portafolio (más adelante):
+- Proyectos que reflejen habilidades y conocimientos (2-3 proyectos): Proyectos que marquen alguna diferencia y sean algo originales.
+- Descripción de las tecnologías usadas y el código.
+- Explicación del proyecto.
+- Estudios realizados.
+- Perfil profesional y personal: Personalidad y metas.
+- Narrativa coherente.
+- Crearlo en una Web y complementado con GitHub.
+
+<img width="1155" height="555" alt="image" src="https://github.com/user-attachments/assets/c1dbc1d1-9137-439f-9146-e96ac8185052" />
+
+
+
+
 
