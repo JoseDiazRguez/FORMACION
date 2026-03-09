@@ -31,7 +31,7 @@ Hay que entender bien los siguientes principios:
 - Uso de **pseudocódigos** para planificar.
 - **Identificación de patrones** para acabar detectando ese código que se repite y que nos presenta problemas que se solucionan de la misma manera (crear soluciones generales).
 
-## Cómo mejor nuestra lógica
+## Cómo mejorar nuestra lógica
 - Resolviendo problemas de lógica de programación:
   - https://www.youtube.com/watch?v=qSup_483xO8
   - LIBRO: https://colegiomanosunidas.wordpress.com/wp-content/uploads/2011/03/esencia_logica_programacion.pdf
