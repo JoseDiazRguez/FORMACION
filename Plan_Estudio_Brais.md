@@ -39,6 +39,8 @@ Hay que trabajar bien nuestro portafolio (más adelante):
 - Narrativa coherente.
 - Crearlo en una Web y complementado con GitHub.
 
+Más: https://www.youtube.com/results?search_query=mouredev+portafolio
+
 <img width="1155" height="555" alt="image" src="https://github.com/user-attachments/assets/c1dbc1d1-9137-439f-9146-e96ac8185052" />
 
 
