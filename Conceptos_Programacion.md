@@ -21,7 +21,9 @@ Están **diseñados para crecer**, permitiendo que tu aplicación maneje más us
   - Blazor.
 
 ## Seguridad
-Suelen traer unas medidas de seguridad ya integradas que nos protegen de **inyecciones SQL** o **ataques XSS**.
+Suelen traer unas medidas de seguridad ya integradas que nos protegen de **inyecciones SQL** o **ataques XSS**[*] 
+
+[*] Un ataque **Cross-Site Scripting (XSS)** es una vulnerabilidad de seguridad web donde un atacante inyecta scripts maliciosos (normalmente JavaScript) en sitios web legítimos. Cuando los usuarios visitan el sitio, este código se ejecuta en sus navegadores, permitiendo el robo de sesiones, datos de usuario o redirecciones maliciosas.
 
 
 
