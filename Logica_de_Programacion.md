@@ -32,8 +32,12 @@ Hay que entender bien los siguientes principios:
 - **Identificación de patrones** para acabar detectando ese código que se repite y que nos presenta problemas que se solucionan de la misma manera (crear soluciones generales).
 
 ## Cómo mejor nuestra lógica
-- Resolviendo problemas de lógica de programación.
+- Resolviendo problemas de lógica de programación:
+  - https://www.youtube.com/watch?v=qSup_483xO8
+  - 
 - Plataformas: Buscar "ejercicios programación", "retos lógicos de programación"...
+  - https://exercism.org/
+  - https://www.codewars.com/
 - Ejercicios más complejos: Tomarse el tiempo en descomponerlos en problemas más fáciles.
 - Practicar, practicar y practicar.
 
