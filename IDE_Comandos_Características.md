@@ -2,7 +2,7 @@
 
 ## Entornos
 
-- Visual Stodio Code en general
+- Visual Studio Code en general
 - IntelliJ para Java/Kotlin
 - Android Studio para Android
 - Xcode para Apple
