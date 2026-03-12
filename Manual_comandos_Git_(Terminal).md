@@ -1,10 +1,154 @@
-# Mini Manual de Comandos Git (Terminal)
+# Mini Manual de Comandos Git y Terminal
 
-Guía rápida de los comandos más utilizados de Git para trabajar desde terminal.
+Guía rápida de comandos básicos de terminal y de los comandos más utilizados de Git para trabajar desde consola.
 
 ---
 
-# 1. Configuración inicial
+## Índice
+
+- [1. Comandos básicos de terminal](#1-comandos-básicos-de-terminal)
+- [2. Configuración inicial de Git](#2-configuración-inicial-de-git)
+- [3. Crear o descargar repositorios](#3-crear-o-descargar-repositorios)
+- [4. Flujo básico de trabajo](#4-flujo-básico-de-trabajo)
+- [5. Sincronizar con repositorio remoto](#5-sincronizar-con-repositorio-remoto)
+- [6. Trabajar con ramas (branch)](#6-trabajar-con-ramas-branch)
+- [7. Ver historial y cambios](#7-ver-historial-y-cambios)
+- [8. Deshacer cambios](#8-deshacer-cambios)
+- [9. Guardar cambios temporalmente](#9-guardar-cambios-temporalmente)
+- [10. Borrar, mover o renombrar archivos](#10-borrar-mover-o-renombrar-archivos)
+- [11. Trabajar con repositorios remotos](#11-trabajar-con-repositorios-remotos)
+- [12. Diferencia entre CMD, Git CMD y Git Bash](#12-diferencia-entre-cmd-git-cmd-y-git-bash)
+- [13. Diagrama visual del flujo Git](#13-diagrama-visual-del-flujo-git)
+- [14. Cheat sheet: 20 comandos Git más usados](#14-cheat-sheet-20-comandos-git-más-usados)
+
+---
+
+# 1. Comandos básicos de terminal
+
+Estos comandos son útiles para moverte por carpetas y manipular archivos desde terminal.
+
+## Listar archivos y carpetas
+
+```bash
+ls
+```
+
+Muestra el contenido de la carpeta actual.
+
+---
+
+## Entrar en un directorio
+
+```bash
+cd <directorio>
+```
+
+Ejemplo:
+
+```bash
+cd mi-proyecto
+```
+
+---
+
+## Subir un nivel de carpeta
+
+```bash
+cd ..
+```
+
+---
+
+## Mostrar la ruta actual
+
+```bash
+pwd
+```
+
+Muestra en qué directorio estás situado.
+
+---
+
+## Crear una carpeta
+
+```bash
+mkdir <nombre>
+```
+
+Ejemplo:
+
+```bash
+mkdir proyecto-git
+```
+
+---
+
+## Crear un archivo vacío
+
+```bash
+touch <nombre>
+```
+
+Ejemplo:
+
+```bash
+touch README.md
+```
+
+> En CMD de Windows puro, `touch` no existe por defecto. Funciona en **Git Bash**.
+
+---
+
+## Eliminar un archivo
+
+```bash
+rm <nombre>
+```
+
+Ejemplo:
+
+```bash
+rm prueba.txt
+```
+
+> En CMD de Windows puro normalmente se usa `del` en lugar de `rm`.
+
+---
+
+## Copiar archivo a un directorio
+
+```bash
+cp <nombre> <directorio>
+```
+
+Ejemplo:
+
+```bash
+cp README.md docs/
+```
+
+> En CMD de Windows puro normalmente se usa `copy` en lugar de `cp`.
+
+---
+
+## Mover archivo a un directorio
+
+```bash
+mv <nombre> <directorio>
+```
+
+Ejemplo:
+
+```bash
+mv README.md docs/
+```
+
+> También sirve para renombrar archivos.  
+> En CMD de Windows puro normalmente se usa `move`.
+
+---
+
+# 2. Configuración inicial de Git
 
 Configurar usuario y correo (solo se hace una vez):
 
@@ -21,7 +165,7 @@ git config --list
 
 ---
 
-# 2. Crear o descargar repositorios
+# 3. Crear o descargar repositorios
 
 ## Crear repositorio nuevo
 
@@ -47,11 +191,11 @@ git clone https://gitlab.com/proyecto/repositorio.git
 
 ---
 
-# 3. Flujo básico de trabajo
+# 4. Flujo básico de trabajo
 
 Flujo típico en Git:
 
-```
+```text
 editar archivos
 ↓
 git add
@@ -107,7 +251,7 @@ git commit -m "Añadida función de login"
 
 ---
 
-# 4. Sincronizar con repositorio remoto
+# 5. Sincronizar con repositorio remoto
 
 ## Descargar cambios del remoto
 
@@ -127,7 +271,7 @@ git pull
 
 Equivale a:
 
-```
+```text
 fetch + merge
 ```
 
@@ -147,7 +291,7 @@ git push origin main
 
 ---
 
-# 5. Trabajar con ramas (branch)
+# 6. Trabajar con ramas (branch)
 
 ## Ver ramas
 
@@ -209,7 +353,7 @@ git merge nombre-rama
 
 ---
 
-# 6. Ver historial
+# 7. Ver historial y cambios
 
 ## Ver commits
 
@@ -239,7 +383,7 @@ git diff HEAD
 
 ---
 
-# 7. Deshacer cambios
+# 8. Deshacer cambios
 
 ## Quitar archivo del staging
 
@@ -267,7 +411,7 @@ git reset --hard ID_COMMIT
 
 ---
 
-# 8. Guardar cambios temporalmente
+# 9. Guardar cambios temporalmente
 
 Guardar cambios sin hacer commit:
 
@@ -283,15 +427,15 @@ git stash pop
 
 ---
 
-# 9. Borrar archivos o moverlos
+# 10. Borrar, mover o renombrar archivos
 
-Eliminar archivo:
+Eliminar archivo desde Git:
 
 ```bash
 git rm archivo.txt
 ```
 
-Mover o renombrar:
+Mover o renombrar con Git:
 
 ```bash
 git mv archivo.txt nuevo.txt
@@ -299,7 +443,7 @@ git mv archivo.txt nuevo.txt
 
 ---
 
-# 10. Trabajar con repositorios remotos
+# 11. Trabajar con repositorios remotos
 
 Ver repositorios remotos:
 
@@ -315,46 +459,181 @@ git remote add origin URL
 
 ---
 
-# Diferencia entre CMD y Git CMD
+# 12. Diferencia entre CMD, Git CMD y Git Bash
+
+Cuando trabajas con Git en Windows puedes usar diferentes terminales.
 
 ## CMD (Command Prompt)
 
-Terminal estándar de Windows.
+Es la terminal estándar de Windows.
 
 Características:
 
-- No incluye Git por defecto
-- Usa comandos nativos de Windows
-- Puede ejecutar Git si está en el PATH
+- no incluye Git por defecto
+- usa comandos propios de Windows (`dir`, `cd`, `copy`, etc.)
+- puede ejecutar Git si está instalado y añadido al PATH
 
 Ejemplo:
 
-```
+```text
 C:\Users\usuario>
+```
+
+Ejemplo de uso:
+
+```bash
+cd C:\proyectos\mi-repo
+git status
 ```
 
 ---
 
 ## Git CMD
 
-Terminal instalada con **Git for Windows**.
+Es una terminal que se instala junto con **Git for Windows**.
 
-Ventajas:
+Características:
 
-- Git ya configurado
-- Incluye herramientas Git
-- Maneja credenciales y SSH correctamente
+- es básicamente CMD con Git ya configurado
+- incluye variables de entorno necesarias para Git
+- maneja correctamente autenticación y herramientas Git
+
+Ejemplo:
+
+```text
+C:\Program Files\Git>
+```
+
+En la práctica los comandos funcionan igual que en CMD, pero Git suele estar mejor preparado para funcionar sin problemas.
+
+---
+
+## Git Bash
+
+Git Bash es una terminal tipo **Linux/Unix** incluida en Git for Windows.
+
+Permite usar comandos Linux además de Git.
+
+Ejemplo:
+
+```text
+usuario@PC MINGW64 ~/proyecto
+$
+```
+
+Ejemplo de comandos:
+
+```bash
+ls
+pwd
+cd proyecto
+git status
+```
 
 ---
 
 ## Comparación
 
-| Terminal | Puede usar Git | Uso recomendado |
-|--------|--------|--------|
-| CMD | Sí (si está en PATH) | Uso general |
-| Git CMD | Sí | Mejor para Git |
-| Git Bash | Sí | Mejor experiencia tipo Linux |
+| Terminal | Tipo | Ventajas | Uso recomendado |
+|--------|--------|--------|--------|
+| CMD | Terminal nativa de Windows | Simple | Uso general |
+| Git CMD | CMD con Git configurado | Git funciona directamente | Git en Windows |
+| Git Bash | Terminal estilo Linux | Comandos Unix + Git | Recomendado para desarrollo |
 
 ---
 
-💡 Recomendación: usar **Git Bash** para trabajar con Git desde terminal.
+💡 **Recomendación:** usar **Git Bash** para trabajar con Git desde terminal, porque además de Git permite usar comandos como `ls`, `pwd`, `mkdir`, `cp`, `mv` y `rm`.
+
+---
+
+# 13. Diagrama visual del flujo Git
+
+```text
+[Working Directory]
+       |
+       | git add
+       v
+[Staging Area]
+       |
+       | git commit
+       v
+[Repositorio Local]
+       |
+       | git push
+       v
+[Repositorio Remoto]
+```
+
+Resumen:
+
+- **Working Directory**: donde editas archivos
+- **Staging Area**: donde preparas los cambios
+- **Repositorio Local**: donde se guardan los commits
+- **Repositorio Remoto**: GitHub, GitLab o servidor remoto
+
+---
+
+# 14. Cheat sheet: 20 comandos Git más usados
+
+## Comandos esenciales
+
+```bash
+git init
+git clone URL
+git status
+git add .
+git add archivo.txt
+git commit -m "mensaje"
+git push
+git pull
+git fetch
+git log --oneline
+git diff
+git branch
+git switch nombre-rama
+git switch -c nueva-rama
+git checkout -b nueva-rama
+git merge nombre-rama
+git restore archivo.txt
+git restore --staged archivo.txt
+git stash
+git stash pop
+```
+
+---
+
+## Resumen rápido de uso
+
+| Comando | Para qué sirve |
+|---|---|
+| `git init` | Crear repositorio |
+| `git clone URL` | Clonar repositorio |
+| `git status` | Ver estado actual |
+| `git add .` | Añadir todos los cambios |
+| `git add archivo.txt` | Añadir un archivo concreto |
+| `git commit -m "mensaje"` | Guardar cambios en un commit |
+| `git push` | Subir commits al remoto |
+| `git pull` | Descargar y fusionar cambios |
+| `git fetch` | Descargar cambios sin fusionar |
+| `git log --oneline` | Ver historial resumido |
+| `git diff` | Ver cambios no confirmados |
+| `git branch` | Ver ramas |
+| `git switch nombre-rama` | Cambiar de rama |
+| `git switch -c nueva-rama` | Crear y cambiar a nueva rama |
+| `git checkout -b nueva-rama` | Crear rama y cambiar a ella |
+| `git merge nombre-rama` | Fusionar una rama |
+| `git restore archivo.txt` | Deshacer cambios en un archivo |
+| `git restore --staged archivo.txt` | Sacar archivo del staging |
+| `git stash` | Guardar cambios temporalmente |
+| `git stash pop` | Recuperar cambios guardados |
+
+---
+
+## Flujo rápido más habitual
+
+```bash
+git status
+git add .
+git commit -m "Descripción del cambio"
+git push
+```
