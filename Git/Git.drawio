@@ -168,21 +168,6 @@
         <mxCell id="OcTpgvwgP3UFaMh_vS-1-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;fontStyle=1;fontColor=#D80073;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;{Head}&lt;/div&gt;" vertex="1">
           <mxGeometry height="20" width="56" x="48" y="153" as="geometry" />
         </mxCell>
-        <mxCell id="OcTpgvwgP3UFaMh_vS-1-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="458" y="377" as="sourcePoint" />
-            <mxPoint x="618" y="377" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OcTpgvwgP3UFaMh_vS-1-43" connectable="0" parent="OcTpgvwgP3UFaMh_vS-1-42" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OcTpgvwgP3UFaMh_vS-1-44" connectable="0" parent="OcTpgvwgP3UFaMh_vS-1-42" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="Source" vertex="1">
-          <mxGeometry relative="1" x="-1" as="geometry" />
-        </mxCell>
-        <mxCell id="OcTpgvwgP3UFaMh_vS-1-45" connectable="0" parent="OcTpgvwgP3UFaMh_vS-1-42" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="Target" vertex="1">
-          <mxGeometry relative="1" x="1" as="geometry" />
-        </mxCell>
         <mxCell id="OcTpgvwgP3UFaMh_vS-1-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;fontStyle=1;fontColor=#D80073;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;{Remote Repo}&lt;/div&gt;" vertex="1">
           <mxGeometry height="20" width="56" x="48" y="524.5" as="geometry" />
         </mxCell>
