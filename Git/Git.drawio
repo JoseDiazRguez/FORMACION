@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Página-1" id="r2wUl25we_hAV52S6x94">
-    <mxGraphModel dx="2037" dy="1061" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="929" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,8 +185,10 @@
         <mxCell id="OcTpgvwgP3UFaMh_vS-1-47" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;direction=north;strokeColor=#FF00FF;size=0;" value="" vertex="1">
           <mxGeometry height="9" width="43" x="631" y="294" as="geometry" />
         </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-4" edge="1" parent="1" source="g2iUQg2aigKPTDLRPGKt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#990099;" target="OcTpgvwgP3UFaMh_vS-1-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#990099;" target="OcTpgvwgP3UFaMh_vS-1-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727" y="205" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-17" edge="1" parent="1" source="g2iUQg2aigKPTDLRPGKt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="g2iUQg2aigKPTDLRPGKt-15">
           <mxGeometry relative="1" as="geometry" />
@@ -198,30 +200,21 @@
           <mxGeometry height="23" width="61" x="692" y="274" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="git checkout 6370321" vertex="1">
-          <mxGeometry height="15" width="132" x="603" y="204" as="geometry" />
+          <mxGeometry height="15" width="132" x="604" y="186" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#12AAB5;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="mueve:&lt;div&gt;{HEAD}&lt;/div&gt;" vertex="1">
-          <mxGeometry height="22" width="39" x="557" y="212" as="geometry" />
+          <mxGeometry height="22" width="39" x="559" y="205" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="{HEAD}: Cabeza de la rama" vertex="1">
-          <mxGeometry height="15" width="121" x="557" y="90" as="geometry" />
+          <mxGeometry height="15" width="121" x="1366" y="151.5" as="geometry" />
         </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#12AAB5;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="722.08" y="169" as="sourcePoint" />
-            <mxPoint x="722.08" y="199" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-11" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="{HEAD}" vertex="1">
-          <mxGeometry height="15" width="38" x="703.5" y="152.5" as="geometry" />
-        </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-13" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="git checkout &amp;lt;rama&amp;gt;" vertex="1">
-          <mxGeometry height="15" width="129" x="577" y="168" as="geometry" />
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-13" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;git checkout &amp;lt;rama&amp;gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;==&amp;nbsp;&lt;/span&gt;git switch &amp;lt;rama&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="129" x="1237" y="166" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#990099;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="642" y="161" as="sourcePoint" />
-            <mxPoint x="697.6666666666667" y="161" as="targetPoint" />
+            <mxPoint x="1302" y="159" as="sourcePoint" />
+            <mxPoint x="1357.6666666666667" y="159" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-20" edge="1" parent="1" source="g2iUQg2aigKPTDLRPGKt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="g2iUQg2aigKPTDLRPGKt-18">
@@ -257,23 +250,19 @@
         <mxCell id="g2iUQg2aigKPTDLRPGKt-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontStyle=0" value="107e2b1" vertex="1">
           <mxGeometry height="23" width="61" x="1043" y="274" as="geometry" />
         </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-25" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;git reset&amp;nbsp;39f8032&amp;nbsp; &amp;nbsp;+&amp;nbsp; &amp;nbsp;git add . + git commit...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;git reset --hard&amp;nbsp;39f8032&lt;/div&gt;" vertex="1">
-          <mxGeometry height="31" width="247" x="787" y="147.5" as="geometry" />
-        </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#12AAB5;">
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-73" edge="1" parent="1" source="g2iUQg2aigKPTDLRPGKt-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#FF00FF;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="844.58" y="197.5" as="sourcePoint" />
-            <mxPoint x="844.58" y="227.5" as="targetPoint" />
+            <mxPoint x="843" y="226" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-27" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="{HEAD}" vertex="1">
-          <mxGeometry height="15" width="38" x="826" y="181" as="geometry" />
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-25" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;git reset&amp;nbsp;39f8032&amp;nbsp; &amp;nbsp;+&amp;nbsp; &amp;nbsp;git add . + git commit...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;git reset --hard&amp;nbsp;39f8032&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31" width="241" x="783" y="147.5" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-31" edge="1" parent="1" source="g2iUQg2aigKPTDLRPGKt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF00FF;" target="g2iUQg2aigKPTDLRPGKt-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-28" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;spacingLeft=3;" value="&lt;div style=&quot;text-align: left;&quot;&gt;git reflog&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;git reset --hard&amp;nbsp;107e2b1&lt;/div&gt;" vertex="1">
-          <mxGeometry height="51" width="138" x="871" y="319" as="geometry" />
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-28" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;spacingLeft=3;" value="&lt;div style=&quot;text-align: left;&quot;&gt;git reflog&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; git reset --hard&amp;nbsp;107e2b1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="171" x="871" y="319" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-32" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;strokeColor=#FF00FF;fontSize=8;fontColor=#FF00FF;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;elimina&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;actualizaciones&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;posteriores&lt;/font&gt;&lt;/div&gt;">
           <mxGeometry height="50" relative="1" width="50" x="0.6311" y="-15" as="geometry">
@@ -287,7 +276,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=8;fontStyle=0;fontColor=default;" value="recupera&lt;div&gt;lo eliminado&lt;/div&gt;" vertex="1">
-          <mxGeometry height="20" width="50" x="1018" y="361" as="geometry" />
+          <mxGeometry height="20" width="50" x="1033" y="359" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=8;fontStyle=0;fontColor=default;" value="muestra historial completo, donde vemos el hash 107e2b1" vertex="1">
           <mxGeometry height="12" width="117" x="925" y="325" as="geometry" />
@@ -379,11 +368,20 @@
         <mxCell id="g2iUQg2aigKPTDLRPGKt-66" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="63" width="20" x="817" y="69" as="geometry" />
         </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-67" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git reset --soft &amp;lt;hash&amp;gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;mantiene staging&lt;font&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;HEAD)&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git reset --mixed &amp;lt;hash&amp;gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: &lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;limpia staging&lt;font style=&quot;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;HEAD + staging)&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git reset --hard&amp;nbsp;&amp;lt;hash&amp;gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp; &lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: elimina cambios &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;HEAD + staging + working directory)&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-67" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git reset --soft &amp;lt;hash&amp;gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;mantiene staging&lt;font&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;HEAD)&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;font style=&quot;color: rgb(153, 0, 153);&quot;&gt;== git checkout &amp;lt;hash&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git reset --mixed &amp;lt;hash&amp;gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: &lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;limpia staging&lt;font style=&quot;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;HEAD + staging)&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git reset --hard&amp;nbsp;&amp;lt;hash&amp;gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp; &lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: elimina cambios &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;HEAD + staging + working directory)&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="49" width="463" x="835" y="75" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-70" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;eliminar tag:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 128, 0);&quot;&gt;git tag -d v1.1&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="82" x="1451" y="343" as="geometry" />
+        </mxCell>
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-72" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#12AAB5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425" y="170" as="sourcePoint" />
+            <mxPoint x="1425" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-74" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#12AAB5;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="mueve:&lt;div&gt;{HEAD}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="22" width="39" x="1210" y="483.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
