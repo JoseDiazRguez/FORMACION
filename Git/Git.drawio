@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Página-1" id="r2wUl25we_hAV52S6x94">
-    <mxGraphModel dx="2383" dy="1214" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2006" dy="1022" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0.5;" value="" vertex="1">
+          <mxGeometry height="1103" width="1586" x="34" y="33" as="geometry" />
+        </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-95" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0;dashed=1;" value="" vertex="1">
           <mxGeometry height="172" width="10" x="1232" y="537" as="geometry" />
         </mxCell>
@@ -645,8 +648,8 @@
         <mxCell id="qjXgyQ8mZlNI0B5jxWJ7-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=default;fontSize=8;fontStyle=0;fontColor=default;align=left;" value="Quiero traer lo desarrollado en main a la rama_1, me sitúo en &amp;lt;rama destino&amp;gt; y después:" vertex="1">
           <mxGeometry height="19" width="182" x="713" y="755" as="geometry" />
         </mxCell>
-        <mxCell id="qjXgyQ8mZlNI0B5jxWJ7-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=right;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(18, 170, 181), rgb(14, 145, 155));&quot;&gt;situarse aquí para merger main a rama_1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;{&lt;b&gt;HEAD}&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="35.5" width="96" x="710" y="796" as="geometry" />
+        <mxCell id="qjXgyQ8mZlNI0B5jxWJ7-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=#12AAB5;rounded=0;align=right;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(18, 170, 181), rgb(14, 145, 155));&quot;&gt;situarse aquí para merger main a rama_1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;{&lt;b&gt;HEAD}&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35.5" width="96" x="708" y="796" as="geometry" />
         </mxCell>
         <mxCell id="qjXgyQ8mZlNI0B5jxWJ7-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=default;fontSize=8;fontStyle=0;fontColor=default;align=left;" value="Se genera un nuevo hash" vertex="1">
           <mxGeometry height="14" width="102" x="854" y="790" as="geometry" />
@@ -953,8 +956,8 @@
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-98" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="git checkout main" vertex="1">
           <mxGeometry height="15" width="111" x="1246" y="578" as="geometry" />
         </mxCell>
-        <mxCell id="g2iUQg2aigKPTDLRPGKt-94" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="{&lt;b&gt;HEAD}&lt;/b&gt;" vertex="1">
-          <mxGeometry height="11" width="40" x="1295.5" y="656" as="geometry" />
+        <mxCell id="g2iUQg2aigKPTDLRPGKt-94" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="&lt;b&gt;HEAD&lt;/b&gt;&lt;div&gt;{main&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="28" width="40" x="1295.5" y="639" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-99" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;direction=west;" value="" vertex="1">
           <mxGeometry height="51" width="20" x="1366" y="832" as="geometry" />
@@ -980,9 +983,6 @@
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0.5;" value="" vertex="1">
           <mxGeometry height="156" width="188" x="1399" y="889" as="geometry" />
         </mxCell>
-        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0.5;" value="" vertex="1">
-          <mxGeometry height="1103" width="1586" x="34" y="33" as="geometry" />
-        </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;rotation=-90;" value="elaborado por: josediazrguez@gmail.com" vertex="1">
           <mxGeometry height="15" width="255" x="1479" y="551.5" as="geometry" />
         </mxCell>
@@ -991,6 +991,15 @@
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=9;" value="&lt;h1 class=&quot;a-spacing-none a-text-normal&quot; style=&quot;box-sizing: border-box; padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding-block-end: 0px; text-rendering: optimizelegibility; line-height: 36px; color: rgb(15, 17, 17); font-family: &amp;quot;Amazon Ember&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(255, 255, 255); margin-bottom: 0px !important;&quot;&gt;&lt;span id=&quot;productTitle&quot; class=&quot;a-size-large celwidget&quot; data-csa-c-id=&quot;5lj10c-t3zfz3-j7sjrl-ejvg2x&quot; data-cel-widget=&quot;productTitle&quot; style=&quot;box-sizing: border-box; text-rendering: optimizelegibility; line-height: 32px !important;&quot;&gt;&lt;span style=&quot;font-weight: 400 !important;&quot;&gt;Libro: &lt;/span&gt;&lt;u&gt;Git&lt;/u&gt; &lt;span style=&quot;font-weight: 400 !important;&quot;&gt;y GitHub desde cero -&amp;nbsp;Brais Moure (Autor)&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry height="24" width="421" x="157" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-113" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#12AAB5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="724" y="929" as="sourcePoint" />
+            <mxPoint x="724" y="959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-114" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="{&lt;b&gt;rama_2}&lt;/b&gt;" vertex="1">
+          <mxGeometry height="11" width="40" x="704" y="921" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
