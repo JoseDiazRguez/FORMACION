@@ -1,17 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Página-1" id="r2wUl25we_hAV52S6x94">
-    <mxGraphModel dx="1501" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2593" dy="1351" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-95" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0;dashed=1;" value="" vertex="1">
           <mxGeometry height="172" width="10" x="1232" y="537" as="geometry" />
-        </mxCell>
-        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-73" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.5;dashed=1;strokeColor=#4D6071;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1399.29" y="1066.5" as="sourcePoint" />
-            <mxPoint x="1399.29" y="649.5" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-74" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.5;dashed=1;strokeColor=#4D6071;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -961,6 +955,33 @@
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-94" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="{&lt;b&gt;HEAD}&lt;/b&gt;" vertex="1">
           <mxGeometry height="11" width="40" x="1295.5" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-99" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;direction=west;" value="" vertex="1">
+          <mxGeometry height="51" width="20" x="1366" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-100" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255));&quot;&gt;git branch --delete rama_1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;== git branch -d rama_1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37.25" width="150" x="1396" y="847.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=default;fontSize=8;fontStyle=0;fontColor=default;align=left;" value="Ya terminamos el desarrollo, eliminamos esta rama:" vertex="1">
+          <mxGeometry height="20.25" width="106" x="1396" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=default;fontSize=8;fontStyle=0;fontColor=default;align=left;verticalAlign=top;" value="Cuando eliminamos una rama tras realizar el merge, todos sus commits se integrarán en la rama con la que se ha fusionado.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Por lo cual, podemos recuperarla de nuevo, buscando el hash del commit mediante:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Recuperando, el estado:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Y creando nueva rama a partir de ahí:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="173" x="1409" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-104" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;spacingLeft=3;" value="&lt;div style=&quot;text-align: left;&quot;&gt;git reflog&lt;/div&gt;" vertex="1">
+          <mxGeometry height="14" width="59" x="1416" y="961" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-105" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="git checkout &amp;lt;hash&amp;gt;" vertex="1">
+          <mxGeometry height="15" width="133" x="1418" y="990.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-106" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;git switch &amp;lt;nueva_rama&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="14" width="145" x="1419" y="1021" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0.5;" value="" vertex="1">
+          <mxGeometry height="156" width="188" x="1399" y="889" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0.5;" value="" vertex="1">
+          <mxGeometry height="1103" width="1586" x="34" y="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
