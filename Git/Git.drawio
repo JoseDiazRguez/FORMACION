@@ -606,6 +606,9 @@
         <mxCell id="g2iUQg2aigKPTDLRPGKt-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" value="Ordenadas según tiempo de commit" vertex="1">
           <mxGeometry height="19" width="204" x="138" y="995" as="geometry" />
         </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-71" edge="1" parent="1" source="qjXgyQ8mZlNI0B5jxWJ7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Bho7Yaz9Cv1Ipslg_Rvq-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qjXgyQ8mZlNI0B5jxWJ7-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
           <mxGeometry height="25" width="25" x="967" y="840" as="geometry" />
         </mxCell>
@@ -672,8 +675,8 @@
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;opacity=30;dashed=1;" value="" vertex="1">
           <mxGeometry height="25" width="25" x="967" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontStyle=0" value="71340a6" vertex="1">
-          <mxGeometry height="23" width="61" x="949" y="632" as="geometry" />
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=default;fontStyle=0" value="71340a6&lt;div&gt;refs/stash@{0}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31" width="88" x="949" y="630" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-12" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="git stash" vertex="1">
           <mxGeometry height="19" width="59" x="921" y="725" as="geometry" />
@@ -684,7 +687,7 @@
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
           <mxGeometry height="25" width="25" x="1048" y="699" as="geometry" />
         </mxCell>
-        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontStyle=0" value="5da704b" vertex="1">
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontStyle=0" value="4fed633" vertex="1">
           <mxGeometry height="23" width="61" x="1046" y="731" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.5;dashed=1;strokeColor=#4D6071;" value="">
@@ -862,6 +865,15 @@
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-68" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash" vertex="1">
           <mxGeometry height="9" width="41" x="1140" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
+          <mxGeometry height="25" width="25" x="1131" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontStyle=0" value="5f5a337" vertex="1">
+          <mxGeometry height="23" width="61" x="1113" y="872" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-72" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;i&gt;(ej. git stash drop 0)&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="9" width="92" x="1086" y="663" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
