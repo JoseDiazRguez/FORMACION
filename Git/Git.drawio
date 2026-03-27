@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Página-1" id="r2wUl25we_hAV52S6x94">
-    <mxGraphModel dx="594" dy="310" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -424,10 +424,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-61" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="git checkout &amp;lt;tag&amp;gt;" vertex="1">
-          <mxGeometry height="15" width="111" x="1096" y="477" as="geometry" />
+          <mxGeometry height="15" width="111" x="1016" y="427" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=8;fontStyle=0;fontColor=default;" value="Nos podemos mover más rápido entre diferentes commits especiales usando tag" vertex="1">
-          <mxGeometry height="20" width="116" x="1093.5" y="501" as="geometry" />
+          <mxGeometry height="20" width="116" x="1013.5" y="451" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-66" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="63" width="20" x="817" y="59" as="geometry" />
@@ -445,7 +445,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-74" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#12AAB5;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#12AAB5;dashed=1;" value="mueve:&lt;div&gt;{HEAD}&lt;/div&gt;" vertex="1">
-          <mxGeometry height="22" width="39" x="1210" y="473.5" as="geometry" />
+          <mxGeometry height="22" width="39" x="1130" y="423.5" as="geometry" />
         </mxCell>
         <mxCell id="g2iUQg2aigKPTDLRPGKt-76" edge="1" parent="1" source="g2iUQg2aigKPTDLRPGKt-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="g2iUQg2aigKPTDLRPGKt-80">
           <mxGeometry relative="1" as="geometry" />
@@ -670,16 +670,16 @@
           <mxGeometry height="17" width="323" x="1255" y="1091" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;opacity=30;dashed=1;" value="" vertex="1">
-          <mxGeometry height="25" width="25" x="967" y="620" as="geometry" />
+          <mxGeometry height="25" width="25" x="967" y="600" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontStyle=0" value="71340a6" vertex="1">
-          <mxGeometry height="23" width="61" x="949" y="652" as="geometry" />
+          <mxGeometry height="23" width="61" x="949" y="632" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-12" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="git stash" vertex="1">
           <mxGeometry height="19" width="59" x="921" y="725" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=8;fontStyle=0;fontColor=default;align=left;" value="Guardar temporalmente una instantánea en una pila, sin hacer commit y cambiamos de rama" vertex="1">
-          <mxGeometry height="35" width="105" x="860" y="619" as="geometry" />
+          <mxGeometry height="35" width="105" x="860" y="599" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
           <mxGeometry height="25" width="25" x="1048" y="699" as="geometry" />
@@ -701,7 +701,7 @@
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-14" edge="1" parent="1" style="shape=flexArrow;endArrow=none;html=1;rounded=0;endWidth=9.33837429111531;endSize=6.591304347826087;width=18.260869565217394;fillColor=#FDFFF8;gradientColor=#D80073;strokeColor=none;strokeOpacity=100;fillOpacity=90;startArrow=classic;startFill=1;startSize=6.591304347826087;endFill=0;gradientDirection=north;opacity=50;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="969.0699999999999" y="676" as="sourcePoint" />
+            <mxPoint x="969" y="663" as="sourcePoint" />
             <mxPoint x="969.5" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -715,7 +715,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-22" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#990099;fontStyle=1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;git switch &amp;lt;main&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="22" width="106" x="825" y="661" as="geometry" />
+          <mxGeometry height="22" width="106" x="834" y="644" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-23" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#990099;exitX=1;exitY=0.75;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
@@ -730,111 +730,138 @@
           <mxGeometry height="35" width="105" x="1036.5" y="761" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontStyle=1" value="stash" vertex="1">
-          <mxGeometry height="23" width="61" x="949" y="594" as="geometry" />
+          <mxGeometry height="23" width="61" x="949" y="574" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=8;fontStyle=0;fontColor=default;align=left;" value="Tenemos varias opciones:" vertex="1">
-          <mxGeometry height="35" width="39" x="1003" y="602" as="geometry" />
+          <mxGeometry height="35" width="39" x="1003" y="582" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-29" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="82" width="20" x="1043" y="580" as="geometry" />
-        </mxCell>
-        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-30" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git stash pop&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: aplica los cambios guardados y lo elimina de la pila&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git stash apply&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: aplica los cambios guardados y los mantiene en la pila&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git stash list&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: visualiza las stash guardadas en la pila&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git stash drop &amp;lt;stash&amp;gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: elimina de la pila una stash concreta&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;git stash clear&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 255), rgb(255, 112, 255)); white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;: elimina todos los stash de la pila&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="75" width="387" x="1061" y="582" as="geometry" />
+          <mxGeometry height="125" width="20" x="1050" y="540" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="5" width="27" x="1460" y="555" as="geometry" />
+          <mxGeometry height="5" width="27" x="1213" y="631" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="5" width="27" x="1460" y="550" as="geometry" />
+          <mxGeometry height="5" width="27" x="1213" y="626" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="5" width="27" x="1460" y="545" as="geometry" />
+          <mxGeometry height="5" width="27" x="1213" y="621" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-45" edge="1" parent="1" source="Bho7Yaz9Cv1Ipslg_Rvq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeWidth=0.5;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1515.251404879386" y="542.5087719298245" as="targetPoint" />
+            <mxPoint x="1268.251404879386" y="618.5087719298245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="5" width="27" x="1460" y="540" as="geometry" />
+          <mxGeometry height="5" width="27" x="1213" y="616" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1457.71" y="562" as="sourcePoint" />
-            <mxPoint x="1457.71" y="529" as="targetPoint" />
+            <mxPoint x="1210.71" y="638" as="sourcePoint" />
+            <mxPoint x="1210.71" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" value="">
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.773;exitY=1.519;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1424" y="501" as="sourcePoint" />
-            <mxPoint x="1467" y="529" as="targetPoint" />
+            <mxPoint x="1181.607" y="553.171" as="sourcePoint" />
+            <mxPoint x="1220" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="1478" y="505" />
+              <mxPoint x="1231" y="581" />
             </Array>
-            <mxPoint x="1478" y="529" as="sourcePoint" />
-            <mxPoint x="1510" y="505" as="targetPoint" />
+            <mxPoint x="1231" y="605" as="sourcePoint" />
+            <mxPoint x="1263" y="581" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=-10;dashed=1;opacity=30;strokeColor=#A50040;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#d80073;" value="" vertex="1">
-          <mxGeometry height="5" width="27" x="1460" y="532" as="geometry" />
+          <mxGeometry height="5" width="27" x="1213" y="608" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1489" y="562" as="sourcePoint" />
-            <mxPoint x="1489" y="529" as="targetPoint" />
+            <mxPoint x="1242" y="638" as="sourcePoint" />
+            <mxPoint x="1242" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-42" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1457.5" y="562" as="sourcePoint" />
-            <mxPoint x="1489.5" y="562" as="targetPoint" />
+            <mxPoint x="1210.5" y="638" as="sourcePoint" />
+            <mxPoint x="1242.5" y="638" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-43" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash" vertex="1">
-          <mxGeometry height="9" width="59" x="1376" y="487" as="geometry" />
-        </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-44" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash pop" vertex="1">
-          <mxGeometry height="9" width="59" x="1484" y="487" as="geometry" />
+          <mxGeometry height="9" width="59" x="1237" y="563" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;strokeColor=#A50040;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#d80073;" value="" vertex="1">
-          <mxGeometry height="5" width="27" x="1518" y="540" as="geometry" />
+          <mxGeometry height="5" width="27" x="1271" y="616" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-47" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash apply" vertex="1">
-          <mxGeometry height="9" width="71" x="1516" y="525" as="geometry" />
+          <mxGeometry height="9" width="71" x="1269" y="601" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-50" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1462" y="555" as="sourcePoint" />
-            <mxPoint x="1471" y="550" as="targetPoint" />
+            <mxPoint x="1215" y="631" as="sourcePoint" />
+            <mxPoint x="1224" y="626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-51" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1462" y="550" as="sourcePoint" />
-            <mxPoint x="1471" y="555" as="targetPoint" />
+            <mxPoint x="1215" y="626" as="sourcePoint" />
+            <mxPoint x="1224" y="631" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-52" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeWidth=0.5;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1431" y="552.4912280701755" as="sourcePoint" />
-            <mxPoint x="1459.251404879386" y="552" as="targetPoint" />
+            <mxPoint x="1184" y="628.4912280701755" as="sourcePoint" />
+            <mxPoint x="1212.251404879386" y="628" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-53" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash drop &amp;lt;stash&amp;gt;" vertex="1">
-          <mxGeometry height="9" width="104" x="1330" y="547" as="geometry" />
+          <mxGeometry height="9" width="104" x="1083" y="623" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=0.5;" value="" vertex="1">
-          <mxGeometry height="6.03" width="13" x="1412" y="523.33" as="geometry" />
+          <mxGeometry height="6.03" width="13" x="1165" y="599.33" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="3" width="3" x="1419" y="525" as="geometry" />
+          <mxGeometry height="3" width="3" x="1172" y="601" as="geometry" />
         </mxCell>
         <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-56" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash list" vertex="1">
-          <mxGeometry height="9" width="59" x="1352" y="521" as="geometry" />
+          <mxGeometry height="9" width="59" x="1105" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-57" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash clear" vertex="1">
+          <mxGeometry height="9" width="70" x="1231.5" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-59" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1222" y="662" as="sourcePoint" />
+            <mxPoint x="1231" y="657" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-60" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1222" y="657" as="sourcePoint" />
+            <mxPoint x="1231" y="662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-61" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;aplica los cambios guardados y lo elimina de la pila&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="23.5" width="136" x="1237" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-62" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;aplica los cambios guardados y lo&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;mantiene en la pila&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="23.5" width="136" x="1271" y="575.8299999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-63" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;font color=&quot;#000000&quot;&gt;visualiza las stash guardadas en la pila&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="23.5" width="95" x="1068" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-64" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;font color=&quot;#000000&quot;&gt;elimina de la pila una stash concreta&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="23.5" width="95" x="1087" y="636.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-65" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;font color=&quot;#000000&quot;&gt;elimina todos los stash de la pila&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="23.5" width="95" x="1262.75" y="630.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bho7Yaz9Cv1Ipslg_Rvq-68" parent="1" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF00FF;" value="git stash" vertex="1">
+          <mxGeometry height="9" width="41" x="1140" y="548" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
