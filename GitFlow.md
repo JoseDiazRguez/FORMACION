@@ -238,9 +238,8 @@ las etiquetas podrían ser:
 - 2.0.0
 
 Si introduces:
-```
-v
-```
+
+`v`
 
 serán:
 
