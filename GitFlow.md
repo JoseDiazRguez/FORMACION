@@ -39,3 +39,259 @@ Y ya dentro de tu repositorio:
 ```
 git flow init
 ```
+
+## Rama de producción
+
+Which branch should be used for bringing forth production releases?
+   - main
+Branch name for production releases: [main]
+
+Aquí Git Flow pregunta cuál es la rama que representa el código que está en producción o listo para producción.
+
+En tu caso:
+
+> main
+
+Eso significa que main será la rama estable principal.
+
+Normalmente:
+
+- contiene versiones terminadas;
+- no se trabaja directamente sobre ella;
+- recibe cambios desde ramas release/ o hotfix/.
+
+## Rama de desarrollo
+
+Branch name for "next release" development: [develop]
+
+Aquí defines la rama donde se integran los cambios de la próxima versión.
+
+La opción habitual es:
+
+> develop
+
+Su función es servir como rama de integración.
+
+El flujo típico sería:
+
+```
+feature/nueva-funcionalidad
+        ↓
+     develop
+        ↓
+release/1.0.0
+        ↓
+      main
+```
+
+Por tanto:
+
+- main → versión estable / producción
+- develop → próxima versión en desarrollo
+
+## Prefijos de ramas auxiliares
+
+Después pregunta:
+
+How to name your supporting branch prefixes?
+
+Es decir: cómo quieres llamar a los distintos tipos de ramas temporales.
+
+### feature/
+
+Feature branches? [feature/]
+
+Se utilizan para desarrollar nuevas funcionalidades.
+
+Ejemplos:
+
+> feature/login
+> feature/exportar-pdf
+> feature/nuevo-panel
+
+Normalmente nacen desde: develop
+y al terminar vuelven a integrarse en: develop
+
+Ejemplo:
+
+`git flow feature start login`
+
+Git Flow crearía:
+
+> feature/login
+
+### bugfix/
+
+Bugfix branches? [bugfix/]
+
+Se utilizan para corregir errores durante el desarrollo normal.
+
+Ejemplos:
+
+> bugfix/error-login
+> bugfix/calculo-iva
+
+Normalmente trabajan sobre errores de la versión que todavía está en desarrollo.
+No hay que confundirlas con hotfix/, que se usa para errores urgentes en producción.
+
+### release/
+
+Release branches? [release/]
+
+Se utilizan cuando una versión ya está prácticamente terminada y quieres prepararla para publicar.
+
+Ejemplos:
+
+> release/1.0.0
+> release/2.3.0
+
+En esta rama normalmente se hacen únicamente ajustes finales:
+
+- corregir pequeños errores;
+- actualizar versión;
+- documentación;
+- pruebas finales;
+- preparar changelog.
+
+No debería utilizarse para añadir grandes funcionalidades nuevas.
+
+El flujo suele ser:
+
+```
+develop
+   ↓
+release/1.0.0
+   ↓
+main
+```
+
+y los cambios realizados en la release también se incorporan de nuevo a develop.
+
+### hotfix/
+
+Hotfix branches? [hotfix/]
+
+Se utilizan para solucionar errores urgentes que ya existen en producción.
+
+Ejemplo:
+
+> hotfix/1.0.1
+
+Supongamos que tienes:
+
+> main → versión 1.0.0
+
+y descubres un fallo crítico.
+
+No esperarías a terminar todo lo que haya en develop.
+
+Crearías:
+
+```
+main
+ ↓
+hotfix/1.0.1
+```
+
+Corriges el problema y después el hotfix se integra tanto en: main
+como en: develop
+
+Así la corrección no se pierde en futuras versiones.
+
+### support/
+
+Support branches? [support/]
+
+Estas ramas se utilizan para mantener versiones antiguas durante periodos prolongados.
+
+Por ejemplo, imagina que tienes:
+
+> main → 3.0
+
+pero todavía debes mantener una versión antigua: 2.x
+Podrías tener: support/2.x
+
+y seguir publicando correcciones:
+
+- 2.1.1
+- 2.1.2
+- 2.1.3
+
+mientras el desarrollo principal continúa en la versión 3.
+
+En proyectos pequeños probablemente no la utilizarás mucho.
+
+## Prefijo de etiquetas de versión
+
+Version tag prefix? []
+
+Aquí decides cómo se llamarán las etiquetas Git asociadas a cada versión.
+
+Si lo dejas vacío:
+
+[]
+
+las etiquetas podrían ser:
+
+- 1.0.0
+- 1.1.0
+- 2.0.0
+
+Si introduces:
+```
+v
+```
+
+serán:
+
+- v1.0.0
+- v1.1.0
+- v2.0.0
+
+Esta segunda convención es muy habitual.
+
+Por ejemplo:
+
+> Version tag prefix? [v]
+
+Personalmente, para documentación suele resultar más claro usar: v1.0.0
+que simplemente: 1.0.0
+
+## Resumen del modelo Git Flow
+
+Puedes documentarlo así:
+
+```
+main
+│
+│  Código estable y versiones de producción
+│
+├── hotfix/
+│     Correcciones urgentes de producción
+│
+└── develop
+      │
+      │  Desarrollo de la próxima versión
+      │
+      ├── feature/
+      │     Nuevas funcionalidades
+      │
+      ├── bugfix/
+      │     Correcciones durante el desarrollo
+      │
+      └── release/
+            Preparación de una nueva versión
+```
+
+## Tabla resumida:
+
+| Rama        | Finalidad                      | Nace normalmente de | Termina normalmente en |
+|-------------|--------------------------------|---------------------|------------------------|
+| `main`      | Producción                     | —                   | —                      |
+| `develop`   | Desarrollo general             | `main` inicialmente | —                      |
+| `feature/*` | Nueva funcionalidad            | `develop`           | `develop`              |
+| `bugfix/*`  | Corregir errores en desarrollo | `develop`           | `develop`              |
+| `release/*` | Preparar una versión           | `develop`           | `main` + `develop`     |
+| `hotfix/*`  | Error urgente en producción    | `main`              | `main` + `develop`     |
+| `support/*` | Mantener versiones antiguas    | según versión       | según estrategia       |
+
