@@ -11,4 +11,5 @@ Las ramas de mantenimiento “hotfix”se utilizan para parchear rápidamente la
 
 Contar con una línea de desarrollo dedicada a la corrección de errores permite que tu equipo aborde los problemas sin interrumpir el resto del flujo de trabajo ni esperar al siguiente ciclo de lanzamiento. Puedes pensar en las ramas de mantenimiento como releaseramas ad hoc que trabajan directamente con main. hotfixSe puede crear una rama utilizando los siguientes métodos:
 
-![](https://dam-cdn.atl.orangelogic.com/AssetLink/t8b1bnptx6bn40wc43g83j02u5b61064.svg)
+<img width="868" height="616" alt="image" src="https://github.com/user-attachments/assets/80178906-b76d-4012-9107-e19119188ec0" />
+
