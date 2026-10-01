@@ -10,3 +10,5 @@
 Las ramas de mantenimiento “hotfix”se utilizan para parchear rápidamente las versiones de producción. HotfixLas ramas son muy parecidas releasea las ramas y featurelas ramas, excepto que se basan en main en lugar de develop. Esta es la única rama que debe bifurcarse directamente de main. Tan pronto como se complete la corrección, debe fusionarse tanto en main como en develop(o en la rama actual release), y main debe etiquetarse con un número de versión actualizado.
 
 Contar con una línea de desarrollo dedicada a la corrección de errores permite que tu equipo aborde los problemas sin interrumpir el resto del flujo de trabajo ni esperar al siguiente ciclo de lanzamiento. Puedes pensar en las ramas de mantenimiento como releaseramas ad hoc que trabajan directamente con main. hotfixSe puede crear una rama utilizando los siguientes métodos:
+
+![](https://dam-cdn.atl.orangelogic.com/AssetLink/t8b1bnptx6bn40wc43g83j02u5b61064.svg)
