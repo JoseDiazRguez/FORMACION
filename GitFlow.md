@@ -295,3 +295,48 @@ main
 | `hotfix/*`  | Error urgente en producción    | `main`              | `main` + `develop`     |
 | `support/*` | Mantener versiones antiguas    | según versión       | según estrategia       |
 
+
+# Ejemplo práctico
+
+Si quieres que lo que tienes ahora en develop pase a main y después eliminar develop, hazlo así.
+
+Primero asegúrate de que no tienes cambios sin guardar:
+
+`git status`
+
+Si todo está limpio, cambia a main:
+
+`git switch main`
+
+Actualiza main por si GitHub tiene cambios que tú no tienes:
+
+`git pull origin main`
+
+Ahora integra develop en main:
+
+`git merge develop`
+
+Si no hay conflictos, sube main a GitHub:
+
+`git push origin main`
+
+Después puedes eliminar la rama local develop:
+
+`git branch -d develop`
+
+Y si también llegaste a crear/subir develop en GitHub, elimínala del remoto con:
+
+`git push origin --delete develop`
+
+En tu caso, por el mensaje que enseñas, parece que develop todavía no se ha subido a GitHub, porque no tiene upstream. Así que probablemente con esto bastaría:
+
+```
+git switch main
+git merge develop
+git push origin main
+git branch -d develop
+```
+
+**Importante**: no uses git branch -D develop salvo que -d se niegue y estés seguro de que no hay commits en develop que quieras conservar. -d es la opción segura.
+
+
