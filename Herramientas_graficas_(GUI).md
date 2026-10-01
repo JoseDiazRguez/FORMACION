@@ -9,5 +9,3 @@ Enlaces de interés:
 - [SourceTree](https://sourcetreeapp.com/)            --> Públicos y privados gratuitos, muy completa
 - [Fork](https://git-fork.com/)                       --> Públicos y privados gratuitos, muy visual
 
-
-Prueba
