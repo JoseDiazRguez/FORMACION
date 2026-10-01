@@ -14,3 +14,28 @@ Contar con una línea de desarrollo dedicada a la corrección de errores permite
 
 <img width="868" height="616" alt="image" src="https://github.com/user-attachments/assets/80178906-b76d-4012-9107-e19119188ec0" />
 
+
+Para instalar Git-Flow en nuestra consola:
+
+- MacOS: 
+
+`brew install git-flow`
+
+- Ubuntu: 
+
+```
+sudo apt update
+sudo apt install git-flow
+```
+
+Después comprueba que está instalado:
+
+```
+git flow version
+```
+
+Y ya dentro de tu repositorio:
+
+```
+git flow init
+```
