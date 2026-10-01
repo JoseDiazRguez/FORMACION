@@ -302,31 +302,45 @@ Si quieres que lo que tienes ahora en develop pase a main y después eliminar de
 
 Primero asegúrate de que no tienes cambios sin guardar:
 
-`git status`
+```
+git status
+``` 
 
 Si todo está limpio, cambia a main:
 
-`git switch main`
+```
+git switch main
+``` 
 
 Actualiza main por si GitHub tiene cambios que tú no tienes:
 
-`git pull origin main`
+```
+git pull origin main
+```
 
 Ahora integra develop en main:
 
-`git merge develop`
+```
+git merge develop
+``` 
 
 Si no hay conflictos, sube main a GitHub:
 
-`git push origin main`
+```
+git push origin main
+``` 
 
 Después puedes eliminar la rama local develop:
 
-`git branch -d develop`
+```
+git branch -d develop
+``` 
 
 Y si también llegaste a crear/subir develop en GitHub, elimínala del remoto con:
 
-`git push origin --delete develop`
+```
+git push origin --delete develop
+``` 
 
 En tu caso, por el mensaje que enseñas, parece que develop todavía no se ha subido a GitHub, porque no tiene upstream. Así que probablemente con esto bastaría:
 
