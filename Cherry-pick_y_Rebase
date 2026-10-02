@@ -1,4 +1,4 @@
-# CHERRY-PICK Y REBASE — CHULETA
+# CHERRY-PICK Y REBASE
 
 ## Cherry-pick
 Permite copiar uno o varios commits concretos de otra rama a la rama actual, sin fusionar toda la rama.
