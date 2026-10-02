@@ -353,3 +353,61 @@ git branch -d develop
 **Importante**: no uses git branch -D develop salvo que -d se niegue y estés seguro de que no hay commits en develop que quieras conservar. -d es la opción segura.
 
 
+------------------------------
+
+# GIT FLOW — CHULETA
+
+## Flujo
+`main` → producción  
+`develop` → desarrollo  
+`feature/*` → nueva función  
+`bugfix/*` → corrección en desarrollo  
+`release/*` → preparar versión  
+`hotfix/*` → corrección urgente en producción  
+
+## Inicializar
+`git flow init`
+
+## Trabajo habitual
+`git status`  
+`git branch`  
+`git switch rama`  
+`git pull`  
+`git add .`  
+`git commit -m "mensaje"`  
+`git push`
+
+## Feature
+`git flow feature start nombre`  
+`git flow feature finish nombre`
+
+## Bugfix
+`git flow bugfix start nombre`  
+`git flow bugfix finish nombre`
+
+## Release
+`git flow release start 1.0.0`  
+`git flow release finish 1.0.0`  
+`git push origin main`  
+`git push origin develop`  
+`git push --tags`
+
+## Hotfix
+`git flow hotfix start 1.0.1`  
+`git flow hotfix finish 1.0.1`  
+`git push origin main`  
+`git push origin develop`  
+`git push --tags`
+
+## Ramas remotas
+Primera subida: `git push -u origin nombre-rama`  
+Eliminar rama local: `git branch -d nombre-rama`  
+Eliminar rama remota: `git push origin --delete nombre-rama`
+
+## Historial
+`git log --oneline`  
+`git log --oneline --graph --all --decorate`  
+`git show ID_COMMIT`
+
+## Remoto
+`git remote -v`
