@@ -1,6 +1,4 @@
-from pathlib import Path
-
-content = r'''# GitHub Actions — Guía rápida de consulta
+# GitHub Actions — Guía rápida de consulta
 
 > Guía práctica para recordar cómo se estructura, ejecuta y mantiene un workflow de GitHub Actions sin convertirlo en un manual exhaustivo.
 > [Retos Brais MoureDev — stats.yml](https://github.com/mouredev/roadmap-retos-programacion/blob/main/.github/workflows/stats.yml)
