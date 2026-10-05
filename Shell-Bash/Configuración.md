@@ -4,7 +4,7 @@
 
 Formato en el que estÃ¡n escritos los archivos con los apuntes del curso.
 
-[Documentación](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Documentación](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) :+1:
 
 ## Shell, Terminal y Bash
 
