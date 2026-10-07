@@ -420,6 +420,8 @@ Esta sección:
 [project.scripts]
 pomofloat = "pomofloat.main:main"
 ```
+> En un archivo .toml, los comentarios se hacen con #.
+> En VS Code, normalmente puedes seleccionar varias líneas y pulsar Ctrl + K, luego Ctrl + C para comentarlas; Ctrl + K, luego Ctrl + U para descomentarlas.
 
 crea un comando:
 
