@@ -497,6 +497,12 @@ editable
 
 Esto permite modificar el código fuente sin tener que reinstalar el paquete después de cada cambio.
 
+> En caso que no permita ejecutar `pip install -e .`, porque esté bloqueando PEP 668 (en Debian/Ubuntu recientes, el Python del sistema está marcado como “gestionado externamente”, así que pip no deja instalar paquetes directamente sobre ese entorno). Entonces, la forma correcta sería utilizar un entorno virtual:
+> Desde la carpeta del proyecto: `python3 -m venv .venv`
+> Luego lo activamos: `source .venv/bin/activate`
+> Deberíamos ver: `(.venv) <nombreUsuario> ...`
+> Ahora ya podemos instalar: `pip install -e .`
+
 ---
 
 # 15. Ejecutar PomoFloat
