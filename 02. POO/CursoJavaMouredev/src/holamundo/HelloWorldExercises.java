@@ -1,3 +1,5 @@
+package holamundo;
+
 import java.util.Scanner;
 
 public class HelloWorldExercises {
