@@ -1,4 +1,4 @@
-package holamundo;
+package c01_holamundo;
 
 class BeginnerExercises {
 

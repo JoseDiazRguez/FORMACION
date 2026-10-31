@@ -1,4 +1,4 @@
-package strings;
+package c03_strings;
 
 public class StringsExercises {
     public static void main(String[] args) {
