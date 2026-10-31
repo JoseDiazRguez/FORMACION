@@ -1,4 +1,4 @@
-package holamundo;
+package c01_holamundo;
 
 public class DataTypes {
 

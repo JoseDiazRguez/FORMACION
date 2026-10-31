@@ -1,4 +1,4 @@
-package operadores;
+package c02_operadores;
 
 public class Operators {
 
