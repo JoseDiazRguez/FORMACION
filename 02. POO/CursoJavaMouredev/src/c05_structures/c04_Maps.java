@@ -15,6 +15,7 @@ public class c04_Maps {
         // Tamaño
 
         System.out.println(names.size());
+        System.out.println(numbers.size());
 
         // Operaciones:
 
@@ -69,6 +70,8 @@ public class c04_Maps {
         names.isEmpty();                                                    // Devuelve un booleano si el Map está vacío o no
 
         var values = names.keySet();                                        // Devuelve un Set con las claves (Key) del Map
+        System.out.println(values);                                         
+        
         names.values();                                                     // Devuelve un Set con los valores (Value) del Map
 
     }   
