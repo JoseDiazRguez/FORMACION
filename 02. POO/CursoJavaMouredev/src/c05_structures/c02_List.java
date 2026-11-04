@@ -15,7 +15,7 @@ public class c02_List {
         // Tamaño
 
         System.out.println(names.size());
-
+        System.out.println(numbers.size());
 
         // Operaciones:
 
