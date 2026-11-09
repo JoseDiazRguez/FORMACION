@@ -6,7 +6,7 @@ public class Product {      // 10. Crea una clase Product y un método que apliq
     String nameProduct;
     double price;
 
-    // COnstructor
+    // Constructor
     public Product(String nameProduct, double price){
         this.nameProduct = nameProduct;
         this.price = price;

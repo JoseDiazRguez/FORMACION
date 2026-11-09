@@ -59,8 +59,8 @@ public class c02_ClasesExercises {
 
         ArrayList<Person> persons = new ArrayList<>();
 
-        persons.add(new Person("Jose",43));
-        persons.add(new Person("Vanessa",45));
+        persons.add(new Person("Jose",43,"123456789A"));
+        persons.add(new Person("Vanessa",45,"123456789B"));
 
         for (Person person : persons){
             person.sayHello();
