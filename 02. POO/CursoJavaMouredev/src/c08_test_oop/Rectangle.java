@@ -8,28 +8,44 @@ public class Rectangle {
     // Atributos
 
     private double width;
-    private double hight;
+    private double height;
 
     // Constructor
 
-    public Rectangle(double width, double hight){
-        this.width = width;
-        this.hight = hight;
+    public Rectangle(double width, double height){
+        if (width > 0) {
+            this.width = width;
+        } else {
+            System.out.println("La anchura debe ser positiva.");
+        }
+        if (height > 0) {
+            this.height = height;
+        } else {
+            System.out.println("La altura debe ser positiva.");
+        }
     }
 
     // Getters & Setters
 
     public void setWidth(double width){
-        this.width = width;
+        if (width > 0) {
+            this.width = width;
+        } else {
+            System.out.println("La anchura debe ser positiva.");
+        }
     }
-    public void serHight(double hight){
-        this.hight = hight;
+    public void setHeight(double height){
+        if (height > 0) {
+            this.height = height;
+        } else {
+            System.out.println("La altura debe ser positiva.");
+        }
     }
 
     // Métodos
 
     public void calculateArea(){
-        System.out.println("El área de un rectángulo de anchura " + width + " y altura " + hight + " es de: " + (width * hight) + " u^2." );
+        System.out.println("El área de un rectángulo de anchura " + width + " y altura " + height + " es de: " + (width * height) + " u^2." );
     }
 
 }

@@ -7,16 +7,30 @@ public class Employee {
 
     // Atributos
 
+    private String name;
     private double salary;
 
     // Constructor
 
-    public Employee(double salary){
-        this.salary = salary;
+    public Employee(String name, double salary){
+        if (name != null && name.length() >= 3){
+            this.name = name;
+        } else {
+            System.out.println("El nombre de usuario debe tener al menos 3 caracteres.");
+        }
+        if (salary > 0){
+            this.salary = salary;
+        } else {
+            System.out.println("El salario debe ser mayor que cero.");
+        }
+        
     }
 
     // Getters & Setters
 
+    public String getName(){
+        return name;
+    }
     public double getSalary(){
         return salary;
     }
@@ -25,10 +39,16 @@ public class Employee {
 
     public void raiseSalary(double percent){
         if (percent > 0){
-            this.salary += percent;
+            double increase = salary * (percent / 100);
+            this.salary += increase;
+            System.out.println("Salario aumentado un " + percent + "% (" + increase + " Euros). Nuevo salario: " + salary + " Euros.");
         } else {
             System.out.println("El aumento de salario debe ser positivo.");
         }
+    }
+
+    public void showSalary(){
+        System.out.println("El salario actual de " + name + " es de: " + salary);
     }
     
 }

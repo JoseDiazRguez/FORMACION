@@ -32,8 +32,8 @@ public class c03_AccessModifiersExercises {
         // 2. Crea una clase Product con el atributo privado price. Añade el método
         // setPrice(double price) que solo permita precios mayores a 0.
 
-        var product = new Product(20.25);
-        product.showPrice();
+        var product = new Product("PructoA",20);
+        product.setPrice(22.25);
 
         // 3. Crea una clase BankAccount con el atributo privado balance. Implementa los
         // métodos deposit(double amount) y withdraw(double amount) que validen las
@@ -67,18 +67,22 @@ public class c03_AccessModifiersExercises {
 
         var user1 = new User("Jose","123456789A");
         var user2 = new User("Vanessa", "123456789B");
+        var user3 = new User("Jose Díaz","123456789C");
+        var user4 = new User("Jose_Díaz","123456789D");
 
         user1.checkPassword("123456789A");
         user2.checkPassword("123456789A");
+        user3.checkPassword("123456789A");
+        user4.checkPassword("123456789A");
 
         // 7. Crea una clase Employee con el atributo privado salary. Agrega el método
         // raiseSalary(double percent) que solo permita aumentos positivos.
 
-        var employee = new Employee(2100);
+        var employee = new Employee("Jose",2100);
 
-        System.out.println("El salario actual es de: " + employee.getSalary());
-        employee.raiseSalary(200);
-        System.out.println("El salario actual es de: " + employee.getSalary());
+        employee.showSalary();
+        employee.raiseSalary(20);
+        employee.showSalary();
 
         // 8. Crea una clase Rectangle con los atributos privados width y height. Agrega
         // setters y el método calculateArea() que devuelva el resultado de width * height.
@@ -107,18 +111,15 @@ public class c03_AccessModifiersExercises {
         var car = new Car(100);
 
         car.accelerate(25);
-        System.out.println("La velacidad de " + car + " es de: " + car.getSpeed());
+        car.showSpeed();
         car.brake(60);
-        System.out.println("La velacidad de " + car + " es de: " + car.getSpeed());
+        car.showSpeed();
         car.accelerate(30);
-        System.out.println("La velacidad de " + car + " es de: " + car.getSpeed());
+        car.showSpeed();
         car.brake(100);
-        System.out.println("La velacidad de " + car + " es de: " + car.getSpeed());
+        car.showSpeed();
         car.accelerate(30);
-        System.out.println("La velacidad de " + car + " es de: " + car.getSpeed());
-
-
-
+        car.showSpeed();
 
     }
 }

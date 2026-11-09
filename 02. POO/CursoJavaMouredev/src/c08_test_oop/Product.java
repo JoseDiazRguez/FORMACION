@@ -7,13 +7,16 @@ public class Product {
 
     // Atributos
 
+    private String name;
     private double price;
 
     // Constructor
     
-    public Product(double price){
+    public Product(String name, double price){
+        this.name = name;
         if (price > 0){
             this.price = price;
+            System.out.println("Alta de: " + name + " - precio: " + price + " Euros.");
         } else {
             System.out.println("El precio debe ser mayor que cero.");
         }
@@ -21,17 +24,17 @@ public class Product {
 
     // Getters & Setters
 
+    public double getPrice(){
+        return price;
+    }
+    
     public void setPrice(double price){
         if (price > 0){
             this.price = price;
+            System.out.println("Precio de " + name + " actualizado a: " + price + " Euros.");
         } else {
             System.out.println("El precio debe ser mayor que cero.");
         }
     }
 
-    // Métodos
-
-    public void showPrice(){
-        System.out.println("El precio del producto es: " + price);
-    }
 }

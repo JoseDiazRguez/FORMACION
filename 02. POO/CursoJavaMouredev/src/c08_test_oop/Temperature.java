@@ -14,6 +14,7 @@ public class Temperature {
     public Temperature(double celsius){
         if (celsius >= -100 && celsius <= 100){
             this.celsius = celsius;
+            System.out.println("Temperatura establecida en: " + celsius + " ºC.");
         } else {
             System.out.println("El valor debe estar comprendido entre -100 y 100 ºC.");
         }
@@ -24,6 +25,7 @@ public class Temperature {
     public void setCelsius(double celsius){
         if (celsius >= -100 && celsius <= 100){
             this.celsius = celsius;
+            System.out.println("Temperatura establecida en: " + celsius + " ºC.");
         } else {
             System.out.println("El valor debe estar comprendido entre -100 y 100 ºC.");
         }

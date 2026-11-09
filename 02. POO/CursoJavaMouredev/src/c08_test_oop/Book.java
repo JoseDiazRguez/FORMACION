@@ -8,7 +8,7 @@ public class Book {
     
     // Atributos
 
-    private String title;
+    private final String title;
 
     // Constructor
 

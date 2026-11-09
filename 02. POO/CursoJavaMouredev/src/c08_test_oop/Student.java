@@ -12,13 +12,21 @@ public class Student {
     // Constructor
 
     public Student(double grade){
-        this.grade = grade;
+        if (grade >= 0 && grade <= 100){
+            this.grade = grade;
+        } else {
+            System.out.println("La nota debe estar entre 0 y 100");
+        }
     }
 
     // Getters & Setters
 
     public void setGrade(double grade){
-        this.grade = grade;
+        if (grade >= 0 && grade <= 100){
+            this.grade = grade;
+        } else {
+            System.out.println("La nota debe estar entre 0 y 100");
+        }
     }
 
     // Métodos
