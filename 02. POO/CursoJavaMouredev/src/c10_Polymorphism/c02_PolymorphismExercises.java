@@ -90,20 +90,55 @@ public class c02_PolymorphismExercises {
         // animal. Pasa diferentes subclases (Dog, Cat, Horse) para que cada una imprima
         // su tipo con su propio getType() sobrescrito.
 
+        var dog = new Dog("Snoopy2");
+        var cat = new Cat("Garfield2");
+        var horse = new Horse("Rocinante");
+
+        showAnimalType(dog);
+        showAnimalType(cat);
+        showAnimalType(horse);
+
         // 8. Crea una clase Converter con método convert(int), convert(double), y
         // convert(String) que devuelvan diferentes formatos de texto.
+
+        Converter converter = new Converter();
+
+        //Polimorfismo por sobrecarga: Java elige el método convert() correspondiente según los argumentos
+        var a = converter.convert(16);
+        converter.check(a);
+        var b = converter.convert(11.18);
+        converter.check(b);
+        var c = converter.convert("Hola");
+        converter.check(c);
 
         // 9. Crea una clase Product con el método getPrice(). Luego, Book y Electronic
         // deben sobrescribirlo con su propia lógica de descuento. Recorre una lista de
         // Product e imprime el precio final de cada uno.
 
+        var product = new Product();
+        var book = new Book();
+        var electronic = new Electronic();
+        
+        product.getPrice(1000, 20);
+        book.getPrice(10);
+        electronic.getPrice(100);
+
         // 10. Crea una clase Character con método attack(). Luego crea subclases
         // Warrior, Archer, Mage con ataques diferentes. En main, crea un array de
         // Character y llama a attack() para cada uno.
 
+        ArrayList<Character> characters = new ArrayList<>();
 
+        characters.add(new Warrior("Armando Bronca"));
+        characters.add(new Archer("Guillermo Tell-O-Fallo"));
+        characters.add(new Mage("Merli-Món"));
         
+        for (Character character : characters){
+            character.attack();
+        }
+
     }
+
 
         /* Método para enviar notificaciones mediante polimorfismo:
         * - public:             Permite llamar al método desde otras clases.
@@ -120,4 +155,9 @@ public class c02_PolymorphismExercises {
     public static void sendNotification(Notification n) {
         n.send();
     }
+
+    public static void showAnimalType(Animal a){
+        a.getType();
+    }
+
 }
