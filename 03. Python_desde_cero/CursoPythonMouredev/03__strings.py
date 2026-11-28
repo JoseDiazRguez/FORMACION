@@ -134,7 +134,31 @@ languaje = "Python"
 pto = languaje[0:6:2]   # secuencia[inicio:fin:paso] --> paso: indica que va de dos en dos
 print(pto)
 
-
 ### Métodos de cadena
+
+# Convierte el primer carácter de la cadena a letra mayúscula
+challenge ='hola mundo'
+print(challenge.capitalize())
+
+# Devuelve las ocurrencias de una subcadena en la cadena count(substring, start=.., end=..). 
+# start es el índice inicial para el conteo y end es el último índice a contar
+challenge ='hola a todo el mundo'
+print(challenge.count('o'))         # Cuenta todas las 'o'
+print(challenge.count('o', 9))      # Cuenta todas las 'o' a partir del índice 9 en adelante
+print(challenge.count('o', 9, 12))  # Cuenta todas las 'o' a partir del índice 9 hasta el 12
+
+# Comprueba si una cadena termina con un carácter especificado
+challenge ='hola a todo el mundo'
+print(challenge.endswith('o'))      # ¿Termina la cadena en 'o'?
+
+# Reemplaza el carácter de tabulación con espacios
+challenge ='hola\ta\ttodo\tel\tmundo'
+print(challenge)
+print(challenge.expandtabs(1))
+print(challenge.expandtabs(3))
+print(challenge.expandtabs(4))
+print(challenge.expandtabs(8))
+print(challenge.expandtabs())       # El tamaño de tabulación predeterminado es 8
+
 
 
